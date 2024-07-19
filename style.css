@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.forms{
+    border: 1px solid brown;
+    padding:20px;
+    border-radius: 8px;
+    background-color: beige;
+}
+input{
+    margin-bottom: 15px;
+    margin-left: 4px;
+}
+input:focus{
+    background-color: aquamarine;
+}
+button{
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.add{
+    display:flex;
+    gap:50px;
+}
+input[name=fname]{
+    margin-left: 32px;
+}
+input[name=lname]{
+    margin-left: 33px;
+}
+input[name=city]{
+    margin-left: 75px;
+}
+input[name=num]{
+    margin-left:10px;
+}
